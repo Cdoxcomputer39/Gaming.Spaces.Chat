@@ -38,5 +38,12 @@ section{background-color: #dadada;
 img{width: 33%;
     height: 15%;
     border-radius: 15px;}
+@media screen and (max-widht: 600px) {
+    nav a{
+        float: none;
+        display: block;
+        text-align: left;
+    }    
+}
 
 
